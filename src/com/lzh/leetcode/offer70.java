@@ -8,6 +8,8 @@ public class offer70 {
         //找出环的入口节点
         //首先确定环的节点数量n，然后首先出发的指针向前移动n步，这时第二个指针同时出发
 
+
+        //找到环中的某一个节点
         ListNode meetingNode=meetingNode(pHead);
         if(meetingNode==null)
             return null;
@@ -31,7 +33,7 @@ public class offer70 {
         }
         return p1;
     }
-
+    //找到环中的某一个节点
     public static ListNode meetingNode(ListNode head){
         if(head==null)
             return null;
