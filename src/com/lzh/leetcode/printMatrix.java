@@ -8,6 +8,7 @@ public class printMatrix {
         System.out.println(printMatrix(matrix));
     }
     public static ArrayList<Integer> printMatrix(int [][] matrix) {
+        //
         //顺时针打印矩阵
         ArrayList<Integer> out = new ArrayList<>();
         int column = matrix[0].length;
